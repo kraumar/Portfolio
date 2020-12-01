@@ -8,12 +8,16 @@ const ParticlesComponent = (props) => {
   let display = width > 992 ? "visible" : "hidden";
 
   return (
-    <div style={{ position: "relative", width: "100%", height: "100%" }}>
-      <div style={{ position: "absolute", width: "100%", height: "100%" }}>
+    <>
+      <div
+        style={{
+          position: "fixed",
+          width: "100%"
+        }}
+      >
         <Particles
           style={{
             width: "100%",
-            height: "100%",
             zIndex: "-999",
             visibility: display
           }}
@@ -99,7 +103,7 @@ const ParticlesComponent = (props) => {
         />
       </div>
       <div>{props.children}</div>
-    </div>
+    </>
   );
 };
 

@@ -129,35 +129,29 @@ const StyledContact = styled.div`
 
 const Contact = () => {
   return (
-    <ParticlesComponent>
-      <StyledContact id="contact">
-        <h1>Contact</h1>
-        <div className="contactInfo">
-          <div className="phone">
-            <i className="fas fa-phone"></i>
-            <h2>{contactInfo.phone}</h2>
-          </div>
-          <div className="email">
-            <i className="fas fa-envelope"></i>
-            <h2>{contactInfo.email}</h2>
-          </div>
-          <div className="linkedin">
-            <a
-              href={contactInfo.linkedin.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <h2>{contactInfo.linkedin.displayTxt}</h2>
-          </div>
-          <footer>
-            <hr />
-            <p>{new Date().getFullYear()}</p>
-          </footer>
+    <StyledContact id="contact">
+      <h1>Contact</h1>
+      <div className="contactInfo">
+        <div className="phone">
+          <i className="fas fa-phone"></i>
+          <h2>{contactInfo.phone}</h2>
         </div>
-      </StyledContact>
-    </ParticlesComponent>
+        <div className="email">
+          <i className="fas fa-envelope"></i>
+          <h2>{contactInfo.email}</h2>
+        </div>
+        <div className="linkedin">
+          <a href={contactInfo.linkedin.link} target="_blank" rel="noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <h2>{contactInfo.linkedin.displayTxt}</h2>
+        </div>
+        <footer>
+          <hr />
+          <p>{new Date().getFullYear()}</p>
+        </footer>
+      </div>
+    </StyledContact>
   );
 };
 

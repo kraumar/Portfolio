@@ -115,27 +115,25 @@ const StyledSkills = styled.div`
 
 const Skills = ({ skills, sideExp }) => {
   return (
-    <ParticlesComponent>
-      <StyledSkills id="skills" sideExp>
-        <h1>Skills</h1>
-        <div className="skillsInfo">
-          <h2 className={sideExp ? "sideExp" : ""}>
-            {sideExp ? "Side Experience" : "Main Experience"}
-          </h2>
-          <div className="container">
-            {skills.map((skill) => {
-              return (
-                <SkillItem
-                  key={skill.title}
-                  title={skill.title}
-                  img={skill.img}
-                />
-              );
-            })}
-          </div>
+    <StyledSkills id="skills" sideExp>
+      <h1>Skills</h1>
+      <div className="skillsInfo">
+        <h2 className={sideExp ? "sideExp" : ""}>
+          {sideExp ? "Side Experience" : "Main Experience"}
+        </h2>
+        <div className="container">
+          {skills.map((skill) => {
+            return (
+              <SkillItem
+                key={skill.title}
+                title={skill.title}
+                img={skill.img}
+              />
+            );
+          })}
         </div>
-      </StyledSkills>
-    </ParticlesComponent>
+      </div>
+    </StyledSkills>
   );
 };
 

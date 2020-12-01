@@ -148,7 +148,7 @@ const MainInfoStyled = styled.div`
   }
 
   .profile-image {
-     overflow: hidden;
+    overflow: hidden;
 
     img {
       @media (min-width: 768px) {

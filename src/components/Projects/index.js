@@ -76,28 +76,26 @@ const StyledProjects = styled.div`
 
 const Projects = () => {
   return (
-    <ParticlesComponent>
-      <StyledProjects id="projects">
-        <h1>Projects</h1>
-        <div className="projectsContent">
-          {projectItems.map(({ title, stack, link }, i) => {
-            return (
-              <ProjectItem key={i} title={title} stack={stack} link={link} />
-            );
-          })}
-        </div>
-        <div className="githubIcon">
-          <a
-            href="https://github.com/kraumar"
-            target="_blank"
-            rel="noreferrer"
-            title="https://github.com/kraumar"
-          >
-            <img src={github} alt="github logo" />
-          </a>
-        </div>
-      </StyledProjects>
-    </ParticlesComponent>
+    <StyledProjects id="projects">
+      <h1>Projects</h1>
+      <div className="projectsContent">
+        {projectItems.map(({ title, stack, link }, i) => {
+          return (
+            <ProjectItem key={i} title={title} stack={stack} link={link} />
+          );
+        })}
+      </div>
+      <div className="githubIcon">
+        <a
+          href="https://github.com/kraumar"
+          target="_blank"
+          rel="noreferrer"
+          title="https://github.com/kraumar"
+        >
+          <img src={github} alt="github logo" />
+        </a>
+      </div>
+    </StyledProjects>
   );
 };
 

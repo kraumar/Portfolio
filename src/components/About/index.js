@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import pattern from "../../img/pattern.png";
-import ParticlesComponent from "../../config/particles";
 
 const StyledAbout = styled.div`
   padding: ${(props) => props.theme.smallPadding};
@@ -189,33 +188,31 @@ const StyledAbout = styled.div`
 
 const About = () => {
   return (
-    <ParticlesComponent>
-      <StyledAbout id="about">
-        <h1>About</h1>
-        <div className="aboutMeInfo">
-          <p>
-            I am a 3rd year Computer Science and first year Buisness Innovations student. During my studies I
-            have learned many different technologies but data science and data analysis got my biggest interest.
-            My goal is to obtain a challenging position where I could use and get better with my skills.
-          </p>
-          <div className="eduAndQuals">
-            <i className="fas fa-stream"></i>
-            <div className="detailsContainer">
-              <i className="fas fa-book-reader"></i>
-              <div className="detail">
-                <p>Oct 2020 - current</p>
-                <small>UEK University of Economics, Cracow</small>
-              </div>
-              <div className="detail">
-                <p>Oct 2017 - current</p>
-                <small>AGH University of Science and Technology, Cracow</small>
-              </div>
+    <StyledAbout id="about">
+      <h1>About</h1>
+      <div className="aboutMeInfo">
+        <p>
+          During my studies I've learned many different technologies but data
+          science got my biggest interest. My goal is to obtain a challenging
+          position where I could use and get better with my skills.
+        </p>
+        <div className="eduAndQuals">
+          <i className="fas fa-stream"></i>
+          <div className="detailsContainer">
+            <i className="fas fa-book-reader"></i>
+            <div className="detail">
+              <p>Oct 2020 - current</p>
+              <small>UEK University of Economics, Cracow</small>
+            </div>
+            <div className="detail">
+              <p>Oct 2017 - current</p>
+              <small>AGH University of Science and Technology, Cracow</small>
             </div>
           </div>
         </div>
-        <img src={pattern} alt="fancy pattern" />
-      </StyledAbout>
-    </ParticlesComponent>
+      </div>
+      <img src={pattern} alt="fancy pattern" />
+    </StyledAbout>
   );
 };
 
