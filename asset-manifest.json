@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/Portfolio/static/js/main.fe28151d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fe28151d.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.b175cfd9.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b175cfd9.js.map",
+    "static/js/2.d8ecb707.chunk.js": "/Portfolio/static/js/2.d8ecb707.chunk.js",
+    "static/js/2.d8ecb707.chunk.js.map": "/Portfolio/static/js/2.d8ecb707.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/js/2.d8ecb707.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d8ecb707.chunk.js.LICENSE.txt",
+    "static/media/Rlogo.c6c89dd1.png": "/Portfolio/static/media/Rlogo.c6c89dd1.png",
+    "static/media/androidlogo.eaa6a295.png": "/Portfolio/static/media/androidlogo.eaa6a295.png",
+    "static/media/apachesparklogo.aabe3214.png": "/Portfolio/static/media/apachesparklogo.aabe3214.png",
+    "static/media/bigdatalogo.7cd2f84b.png": "/Portfolio/static/media/bigdatalogo.7cd2f84b.png",
+    "static/media/dataanalysyslogo.fb60b721.png": "/Portfolio/static/media/dataanalysyslogo.fb60b721.png",
+    "static/media/deeplearninglogo.a7742759.png": "/Portfolio/static/media/deeplearninglogo.a7742759.png",
+    "static/media/githublogo.5304db6b.png": "/Portfolio/static/media/githublogo.5304db6b.png",
+    "static/media/imgmain.85f6a930.png": "/Portfolio/static/media/imgmain.85f6a930.png",
+    "static/media/javalogo.b9a63c85.png": "/Portfolio/static/media/javalogo.b9a63c85.png",
+    "static/media/keraslogo.26c2b48d.png": "/Portfolio/static/media/keraslogo.26c2b48d.png",
+    "static/media/machinelearninglogo.297dcdb8.png": "/Portfolio/static/media/machinelearninglogo.297dcdb8.png",
+    "static/media/matlablogo.2b608e94.png": "/Portfolio/static/media/matlablogo.2b608e94.png",
+    "static/media/matplotliblogo.fb25ba98.png": "/Portfolio/static/media/matplotliblogo.fb25ba98.png",
+    "static/media/numpylogo.2154b02d.png": "/Portfolio/static/media/numpylogo.2154b02d.png",
+    "static/media/pattern.f78d5ff6.png": "/Portfolio/static/media/pattern.f78d5ff6.png",
+    "static/media/powerbilogo.e1b186e3.png": "/Portfolio/static/media/powerbilogo.e1b186e3.png",
+    "static/media/splunklogo.a0ab7480.png": "/Portfolio/static/media/splunklogo.a0ab7480.png",
+    "static/media/tensorflowlogo.340075d9.png": "/Portfolio/static/media/tensorflowlogo.340075d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b175cfd9.js",
+    "static/js/2.d8ecb707.chunk.js",
+    "static/js/main.fe28151d.chunk.js"
+  ]
+}
