@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.fe28151d.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.fe28151d.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.28ff4ffa.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.28ff4ffa.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b175cfd9.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b175cfd9.js.map",
-    "static/js/2.d8ecb707.chunk.js": "/Portfolio/static/js/2.d8ecb707.chunk.js",
-    "static/js/2.d8ecb707.chunk.js.map": "/Portfolio/static/js/2.d8ecb707.chunk.js.map",
+    "static/js/2.b0be4bb2.chunk.js": "/Portfolio/static/js/2.b0be4bb2.chunk.js",
+    "static/js/2.b0be4bb2.chunk.js.map": "/Portfolio/static/js/2.b0be4bb2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/js/2.d8ecb707.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d8ecb707.chunk.js.LICENSE.txt",
+    "static/js/2.b0be4bb2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b0be4bb2.chunk.js.LICENSE.txt",
     "static/media/Rlogo.c6c89dd1.png": "/Portfolio/static/media/Rlogo.c6c89dd1.png",
     "static/media/androidlogo.eaa6a295.png": "/Portfolio/static/media/androidlogo.eaa6a295.png",
     "static/media/apachesparklogo.aabe3214.png": "/Portfolio/static/media/apachesparklogo.aabe3214.png",
@@ -29,7 +29,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b175cfd9.js",
-    "static/js/2.d8ecb707.chunk.js",
-    "static/js/main.fe28151d.chunk.js"
+    "static/js/2.b0be4bb2.chunk.js",
+    "static/js/main.28ff4ffa.chunk.js"
   ]
 }
