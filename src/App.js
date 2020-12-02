@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ParticlesComponent from "./config/particles";
 
 import {
   mainExperienceItems,
@@ -64,14 +65,16 @@ const theme = {
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Splash />
-      <About />
-      <Skills skills={mainExperienceItems} />
-      <Skills skills={sideExperienceItems} sideExp />
-      <Projects />
-      <Contact />
-    </ThemeProvider>
+    <ParticlesComponent>
+      <ThemeProvider theme={theme}>
+        <Splash />
+        <About />
+        <Skills skills={mainExperienceItems} />
+        <Skills skills={sideExperienceItems} sideExp />
+        <Projects />
+        <Contact />
+      </ThemeProvider>
+    </ParticlesComponent>
   );
 }
 
